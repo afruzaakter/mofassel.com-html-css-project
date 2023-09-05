@@ -281,6 +281,39 @@ section{
     text-align: center;
     color: #FF9C00;
 }
+/* --- section - 9 MASTERING SELLING MACHINE (MSM)--------- */
+.mastering-title{
+ font-size: 35px;
+ color: #FF9C00;
+ margin-top: -25px;
+ font-weight: 700;
+text-align: center;
+}
+.title{
+    font-size: 35px;
+    font-weight: 600;
+    color: #2B2A4C;
+    line-height: 1em;
+    text-align: center;
+}
+.elementor-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.elementor-price-list{
+    color: #2B2A4C;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2em;
+    margin: 10px;
+    line-height: 42px;
+}
+.elementor-price-list span{
+  color: #FF9C00;
+}
 /* ---- footer part ----------- */
 .footer{
     display: flex;
