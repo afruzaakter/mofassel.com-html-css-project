@@ -314,6 +314,63 @@ text-align: center;
 .elementor-price-list span{
   color: #FF9C00;
 }
+.total-price-card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.total-price{
+    width: 500px;
+    height: 90px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 7px 10px 8px -12px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 1.3em;
+    color: #54595F;
+}
+.elementor-heading-title{
+    margin-top: 40px;
+    color: #FF9C00;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* ------- F A Q section -------- */
+.FAQ-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000;
+}
+.FAQ-text{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:  "Hind Siliguri", Sans-serif;
+    color: #2B2A4C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    border-bottom: #54595F;
+  
+}
+.FAQ-text li i{
+    font-size: 10px;
+}
 /* ---- footer part ----------- */
 .footer{
     display: flex;
