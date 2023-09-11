@@ -371,6 +371,63 @@ text-align: center;
 .FAQ-text li i{
     font-size: 10px;
 }
+/* --------- যোগাযোগ section ---------  --  */
+.contact{
+    font-size: 25px;
+    line-height: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px 0px 40px 0px;
+}
+.contact-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.email-card{
+    width: 560px;
+    height: 234px;
+    text-align: center;
+}
+
+.email-contact-title{
+  color: #2B2A4C;
+  margin-bottom: 40px;
+}
+.email-contact-text{
+    color: #54595F;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.email-contact-button{
+   background-color: #FF9C00;
+   border: none;
+   padding: 15px 20px;
+   border-radius: 5px;
+   color: #ffffff;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+.mobile-contact-title{
+    color: #2B2A4C;
+    margin-bottom: 20px;
+}
+.mobile-contact-button{
+    background-color: #2B2A4C;
+    border: none;
+    padding: 17px 25px 12px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+ }
+ .contact-button{
+   margin-bottom: 15px;
+ }
 /* ---- footer part ----------- */
 .footer{
     display: flex;
@@ -379,4 +436,53 @@ text-align: center;
 }
 .copyright{
     font-size: 20px;
+}
+/* ================================================= */
+  /* Media query for mobile devices */
+  @media (max-width: 768px) and (min-width: 360px){
+    /* --- Header Section -------- */
+    .header-text {
+        font-size: 18px; /* Reduce font size for smaller screens */
+    }
+    .hour {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+ /* ------------ section 1---------- */
+ .services{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+ }
+ .selling-page{
+    width: 390px;
+ }
+ .selling-title {
+    font-size: 24px;
+}
+.selling-description {
+    font-size: 16px;
+}
+.selling-description-2 {
+    font-size: 14px;
+}
+.enroll-button {
+    font-size: 18px;
+}
+/* <!-- ----section-2 সেলিং মেশিন কার জন্য ----- --> */
+.business-services{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+.business-description{
+    width: 370px;
+}
+
+/* <---section-3 সেলিং মেশিন সিক্রেটস্‌ সমূহ, যা আপনাকে জানতেই হবে----- --> */
+.secret{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
 }
